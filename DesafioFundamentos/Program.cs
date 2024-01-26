@@ -3,6 +3,7 @@
 // Coloca o encoding para UTF8 para exibir acentuação
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
+// declaração de variaveis
 decimal precoInicial = 0;
 decimal precoPorHora = 0;
 
@@ -31,6 +32,7 @@ while (exibirMenu)
 
     switch (Console.ReadLine())
     {
+        //executa o método da classe
         case "1":
             es.AdicionarVeiculo();
             break;
