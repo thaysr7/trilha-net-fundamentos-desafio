@@ -2,10 +2,12 @@ namespace DesafioFundamentos.Models
 {
     public class Estacionamento
     {
+        //declaração de variaveis
         private decimal precoInicial = 0;
         private decimal precoPorHora = 0;
         private List<string> veiculos = new List<string>();
-
+        
+        //metodo construtor
         public Estacionamento(decimal precoInicial, decimal precoPorHora)
         {
             this.precoInicial = precoInicial;
